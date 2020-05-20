@@ -23,7 +23,7 @@ import java.time.ZonedDateTime;
 )
 
 
-public class UserEntity implements Serializable{
+public class UserEntity implements Serializable {
 
     @Id
     @Column(name = "ID")
@@ -84,23 +84,23 @@ public class UserEntity implements Serializable{
     private String salt;
 
     @Version
-    @Column(name="VERSION" , length=19 , nullable = false)
+    @Column(name = "VERSION", length = 19, nullable = false)
     private Long version;
 
 
-    @Column(name="CREATED_BY")
+    @Column(name = "CREATED_BY")
     @NotNull
     private String createdBy;
 
 
-    @Column(name="CREATED_AT")
+    @Column(name = "CREATED_AT")
     @NotNull
     private ZonedDateTime createdAt;
 
-    @Column(name="MODIFIED_BY")
+    @Column(name = "MODIFIED_BY")
     private String modifiedBy;
 
-    @Column(name="MODIFIED_AT")
+    @Column(name = "MODIFIED_AT")
     private ZonedDateTime modifiedAt;
 
 

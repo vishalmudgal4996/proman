@@ -1,3 +1,4 @@
+com\upgrad\proman\service\business\UserAdminBusinessService.class
 com\upgrad\proman\service\entity\RoleEntity.class
 com\upgrad\proman\service\entity\UserAuthTokenEntity.class
 com\upgrad\proman\service\entity\UserEntity.class

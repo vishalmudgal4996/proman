@@ -21,7 +21,7 @@ import static org.hibernate.id.PersistentIdentifierGenerator.SCHEMA;
 /*@NamedQueries({
         @NamedQuery(name = "roleByuuid" , query = "select r from RoleEntity r where r.uuid =:uuid")
 })*/
-public class RoleEntity implements Serializable{
+public class RoleEntity implements Serializable {
 
     @Id
     @Column(name = "ID")
@@ -47,23 +47,23 @@ public class RoleEntity implements Serializable{
 
 
     @Version
-    @Column(name="VERSION" , length=19 , nullable = false)
+    @Column(name = "VERSION", length = 19, nullable = false)
     private Long version;
 
 
-    @Column(name="CREATED_BY")
+    @Column(name = "CREATED_BY")
     @NotNull
     private String createdBy;
 
 
-    @Column(name="CREATED_AT")
+    @Column(name = "CREATED_AT")
     @NotNull
     private ZonedDateTime createdAt;
 
-    @Column(name="MODIFIED_BY")
+    @Column(name = "MODIFIED_BY")
     private String modifiedBy;
 
-    @Column(name="MODIFIED_AT")
+    @Column(name = "MODIFIED_AT")
     private ZonedDateTime modifiedAt;
 
 
@@ -83,7 +83,7 @@ public class RoleEntity implements Serializable{
         this.uuid = uuid;
     }
 
-   public String getName() {
+    public String getName() {
         return name;
     }
 
@@ -152,17 +152,17 @@ public class RoleEntity implements Serializable{
     }*/
 
     @Override
-        public boolean equals(Object obj) {
-            return new EqualsBuilder().append(this, obj).isEquals();
-        }
+    public boolean equals(Object obj) {
+        return new EqualsBuilder().append(this, obj).isEquals();
+    }
 
-        @Override
-        public int hashCode() {
-            return new HashCodeBuilder().append(this).hashCode();
-        }
+    @Override
+    public int hashCode() {
+        return new HashCodeBuilder().append(this).hashCode();
+    }
 
-        @Override
-        public String toString() {
-            return ToStringBuilder.reflectionToString(this, ToStringStyle.MULTI_LINE_STYLE);
-        }
+    @Override
+    public String toString() {
+        return ToStringBuilder.reflectionToString(this, ToStringStyle.MULTI_LINE_STYLE);
+    }
 }

@@ -2,6 +2,7 @@ C:\Users\VishkR\proman\proman-service\src\main\java\com\upgrad\proman\service\en
 C:\Users\VishkR\proman\proman-service\src\main\java\com\upgrad\proman\service\entity\UserAuthTokenEntity.java
 C:\Users\VishkR\proman\proman-service\src\main\java\com\upgrad\proman\service\business\SignupBusinessService.java
 C:\Users\VishkR\proman\proman-service\src\main\java\com\upgrad\proman\service\ServiceConfiguration.java
+C:\Users\VishkR\proman\proman-service\src\main\java\com\upgrad\proman\service\business\UserAdminBusinessService.java
 C:\Users\VishkR\proman\proman-service\src\main\java\com\upgrad\proman\service\entity\UserEntity.java
 C:\Users\VishkR\proman\proman-service\src\main\java\com\upgrad\proman\service\dao\UserDao.java
 C:\Users\VishkR\proman\proman-service\src\main\java\com\upgrad\proman\service\type\UserStatus.java
